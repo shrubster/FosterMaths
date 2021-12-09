@@ -26,7 +26,6 @@ body {
 }
 
 /*
-Navigation Bar
 Only used for Mr Padgham's Christmas button
 */
 
@@ -60,4 +59,25 @@ Only used for Mr Padgham's Christmas button
 
 .navbar a:hover, .navbar h4:hover {
 	background-color: #5f0000;
+}
+
+/*
+
+MAIN PAGE
+
+*/
+
+div.page {
+	padding-top: 75px;
+}
+
+body div.body div.page div.big-promo-img {
+	width: 100%;
+	display: block;
+	height: 60vh;
+	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23UdHSaWjkyTIsuuXdWAJjPklFYR9jOd1kQ&usqp=CAU')
+}
+body div.body div.page div.big-promo-img h1 {
+	font-size: 50pt;
+	color: lightgray;
 }
