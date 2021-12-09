@@ -34,21 +34,30 @@ Only used for Mr Padgham's Christmas button
 	height: 75px;
 	width: 100%;
 	display: block;
+	position: fixed;
+	background-color: darkred;
+	color: white;
 }
 
-.navbar h4 {
+.navbar h4 a {
 	line-height: 75px;
 	font-size: 25pt;
 	float: left;
 	padding-left: 15px;
 	padding-right: 15px;
-	font-family: 'Readex';
+	font-family: 'Readex', Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .navbar a {
 	line-height: 75px;
 	font-size: 25pt;
-	color: black;
+	color: white;
 	text-decoration: none;
-	float: left;
+	float: right;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.navbar a:hover, .navbar h4:hover {
+	background-color: #5f0000;
 }
