@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* Fonts */
+
+@font-face {
+	font-family: 'Source Sans 3';
+	src: url('fonts/sourcesans3/SourceSans3-VariableFont_wght.ttf');
+}
+
+@font-face {
+	font-family: 'Readex';
+	src: url('fonts/readex/ReadexPro-VariableFont_wght.ttf');
+}
+
+/* Body */
+
+body {
+	font-family: 'Source Sans 3', Arial, Helvetica, sans-serif;
+}
+
+/*
+Navigation Bar
+Only used for Mr Padgham's Christmas button
+*/
+
+.navbar {
+	height: 75px;
+	width: 100%;
+	display: block;
+}
+
+.navbar h4 {
+	line-height: 75px;
+	font-size: 25pt;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-family: 'Readex';
+}
+
+.navbar a {
+	line-height: 75px;
+	font-size: 25pt;
+	color: black;
+	text-decoration: none;
+	float: left;
+}
