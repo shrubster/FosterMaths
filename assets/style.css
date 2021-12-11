@@ -88,6 +88,7 @@ div.promo-text {
 }
 
 div.promo-text h1 {
+	font-family: 'Readex', Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 75pt;
 	color: black;
 }
