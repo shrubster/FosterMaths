@@ -75,25 +75,32 @@ body div.body div.page div.big-promo-img {
 	width: 100%;
 	display: block;
 	height: 60vh;
-	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23UdHSaWjkyTIsuuXdWAJjPklFYR9jOd1kQ&usqp=CAU');
+	background-image: url('https://imgr.search.brave.com/EhASRdZJdhejfRr323T7UWPdm9EhZ_CVkgMcz0ve6vI/fit/1024/683/ce/1/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vcGhvdG9z/L21hdGgtdGVhY2hl/ci1waWN0dXJlLWlk/NTEwMjIxMTI4');
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position-y: center;
+	background-position-y: -60px;
 }
 
 div.promo-text {
-	padding-left: 300px;
-	padding-top: 100px;
-	padding-bottom: 100px;
+	float: right;
+	background: #7a0000be;
+	height: 100%;
+}
+
+div#promo-text-centered {
+	padding: 50px;
+	padding-top: 70px;
 }
 
 div.promo-text h1 {
 	font-family: 'Readex', Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 75pt;
-	color: black;
+	text-align: right;
+	color: #ffffff;
 }
 
 div.promo-text p {
 	font-size: 40pt;
-	color: black;
+	color: #ffffff;
+	text-align: right;
 }

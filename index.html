@@ -15,16 +15,35 @@
 	<div class="body">
 		<div class="navbar">
 			<h4><a href="#">FM</a></h4>
-			<a href="mailto:d.padgham@voy.hlt.academy?subject=Merry%20Christmas&body=Hi%20Mr%20Padgham,%0D%0AThought%20you%20would%20like%20to%20be%20wished%20a%20very%20merry%20Christmas">Wish Padgham a very merry Christmas!</a>
+			<a id="christmas-button" href="mailto:d.padgham@voy.hlt.academy?subject=Merry%20Christmas&body=Hi%20Mr%20Padgham,%0D%0AThought%20you%20would%20like%20to%20be%20wished%20a%20very%20merry%20Christmas"><span id="mouseOffText-C">Wish Padgham a very merry Christmas!</span><span id="mouseOnText-C" style="display: none;">You know you want to</span></a>
 		</div>
 		<div class="page">
 			<div class="big-promo-img">
 				<div class="promo-text">
-					<h1>Foster Maths</h1>
-					<p>Putting the maths,<br>in maths</p>
+					<div id="promo-text-centered">
+						<h1>Foster Maths</h1>
+						<p>Putting the maths,<br>in maths</p>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+	<script>
+		document.getElementById('christmas-button').addEventListener('mouseover', christmasOnHover);
+		document.getElementById('christmas-button').addEventListener('mouseout', christmasOffHover);
+
+		const mouseOffText = document.getElementById('mouseOffText-C');
+		const mouseOnText = document.getElementById('mouseOnText-C');
+
+		function christmasOnHover() {
+			mouseOffText.style.display = 'none';
+			mouseOnText.style.display = 'inline';
+		}
+
+		function christmasOffHover() {
+			mouseOffText.style.display = 'inline';
+			mouseOnText.style.display = 'none';
+		}
+	</script>
 </body>
 </html>
